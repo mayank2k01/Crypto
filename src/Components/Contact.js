@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Footer from "./Footer";
 const Contact = () =>{
     const [data,setdata]=useState({
        
@@ -107,7 +106,6 @@ const Contact = () =>{
              </div>
              
            </div>
-           <Footer/>
         </>
     );
 }

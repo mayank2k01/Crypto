@@ -14,6 +14,7 @@ import Footer from "./Components/Footer";
 const App=()=>{
   return (<>
     <Navbar/>
+    <div className="temp">
       <Routes>
         <Route exact path="/" element={<Home/>}/>
         <Route path="/about" element={<About/>}/>
@@ -21,7 +22,8 @@ const App=()=>{
         <Route path="/contact" element={<Contact/>}/>
         {/* <Redirect to="/"/> */}
       </Routes>
-   
+    </div>
+    <Footer/>
   </>
 )}
 

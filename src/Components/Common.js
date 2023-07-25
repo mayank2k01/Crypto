@@ -1,5 +1,4 @@
 import React from "react";
-import Footer from "./Footer";
 import { NavLink } from "react-router-dom";
 const Common=(props)=>{
     return(<>
@@ -26,10 +25,8 @@ const Common=(props)=>{
                         </div>
                         </div>
 
-                        {/* <Footer/> */}
+                        
                 </div>
-                <br/>
-                 <Footer/>
             </div>
         </div>
         </section>

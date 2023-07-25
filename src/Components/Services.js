@@ -2,7 +2,6 @@ import React from "react"
 import Card from "./Card"
 import { useEffect, useState } from "react";
 import Axios from "axios";
-import Footer from "./Footer";
 const Services=()=>{
     const [listOfCoins, setListOfCoins] = useState([]);
     const [searchWord, setSearchWord] = useState("");
@@ -55,8 +54,6 @@ const Services=()=>{
                         }
                     </div>
                 </div>
-                <br/>
-                 <Footer/>
             </div>
            </div>
     </>)
