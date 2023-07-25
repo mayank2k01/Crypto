@@ -81,6 +81,7 @@
   }
 
   footer{
+    position:relative;
     margin-bottom: 5px;
     width: 100%;
     bottom: 0;
@@ -90,4 +91,10 @@
   }
   .temp{
     min-height: 90vh;
+  }
+
+  @media (max-width: 985px) {
+    footer {
+      display:none;
+    }
   }
