@@ -6,6 +6,9 @@
   
   body{
     background-image: url(/src/Components/Images/b3.jpeg);
+    /* display: flex;
+    flex-direction: column;
+    height: 100vh; */
   }
   .menu_active {
     font-weight: bold;
@@ -88,13 +91,53 @@
     color: #fff;
     text-align: center;
     float: left;
+    /* width: 100%;
+    background-color: black;
+    margin-top: auto; */
+
+  }
+  footer p
+  {
+    margin: 0;
+    text-align: center;
+    line-height: 5rem;
+    color: #fff;
+    font-size: 1.4rem;
   }
   .temp{
     min-height: 90vh;
   }
 
   @media (max-width: 985px) {
-    footer {
-      display:none;
+    .temp{
+      min-height: 125vh;
     }
   }
+
+  @media (max-width: 756px) {
+    .temp{
+      min-height: 100vh;
+    }
+  }
+  @media (max-width: 380px) {
+    .temp{
+      min-height: 125vh;
+    }
+  }
+  .cryptoDisplay {
+    margin-top: 15px;
+    margin-left: 20vh;
+  }
+
+  @media (max-width: 600px) {
+    .cryptoDisplay {
+      margin-left: 4vh;
+    }
+  }
+
+  @media (max-width: 400px) {
+    .cryptoDisplay {
+      margin-left: 3vh;
+    }
+  }
+  

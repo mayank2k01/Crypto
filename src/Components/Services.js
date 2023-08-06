@@ -36,11 +36,8 @@ const Services=()=>{
                     aria-describedby="search-addon" />
                 </div>
             </div>
-           <div className='container-fluid mb-5'>
-            <div className='row '>
-                <div className='col-10 mx-auto'>
-                    <div className='row gy-4'>
-                        {
+                <div className="cryptoDisplay">
+                        { 
                             filteredCoins.map((coins)=>{
                                 return <Card 
                                     // key={idx}
@@ -52,10 +49,7 @@ const Services=()=>{
                                 />
                             })
                         }
-                    </div>
                 </div>
-            </div>
-           </div>
     </>)
 }
 
