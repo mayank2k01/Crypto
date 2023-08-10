@@ -60,7 +60,7 @@ const Navbar = () => {
             </li>
             <li>
               <a
-                href="https://www.instagram.com/o_bishal_o/"
+                href="https://www.instagram.com/mayanc2k01/"
                 target="_New">
                 <FaInstagramSquare className="instagram" />
               </a>
